@@ -1,0 +1,506 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
+  min-width: 1440px;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.bigbody{
+  margin-top: 90px;
+}
+.top{
+  height: 80px;
+  background-color: #ffffff;
+  width: 100%;
+  overflow: hidden;
+}
+.top-inner{
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+.logo{
+  margin: 22px 0 0 0;
+  float: left;
+}
+.logo a{
+  /*color: #ffffff;*/
+  font-size: 30px;
+  text-align: center;
+}
+.nav{
+  color: #000000;
+  float: left;
+  width: 1020px;
+  padding: 30px 0 0 0;
+}
+.nav ul{
+  text-align: right;
+  line-height: 30px;
+}
+.nav li{
+  display: inline;
+  font-size: 18px;
+  margin-left: 20px;
+  color: #000000;
+  overflow: hidden;
+}
+footer{
+  width: 100%;
+  /*height: 60px;*/
+  background: #333;
+  color: #a5a4a4;
+  text-align: center;
+  padding: 20px 0;
+  /*position: fixed;*/
+  /*top: 100%;*/
+  /*margin-top: -60px;*/
+}
+/*以上是顶部和底部*/
+
+/*以下是主页*/
+.article{
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.blog{
+  float: left;
+  width: 70%;
+  overflow: hidden;
+}
+.sidebar{
+  float: right;
+  width: 28%;
+  overflow: hidden;
+}
+.blog li{
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #ffffff;
+  border-top-left-radius: 16px;
+}
+.blogpic {
+  overflow: hidden;
+  width: 30%;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.blogpic img{
+  width: 100%;
+}
+.blogtitle {
+  line-height: 30px;
+  height: 30px;
+  margin: 10px 0;
+}
+.bloginfo p {
+  color: #888;
+  line-height: 24px;
+}
+.auto {
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  margin: 20px 0 0 0;
+  display: inline-block;
+  color: #838383;
+  font-size: 12px;
+  padding-left: 14px;
+}
+.auto span{
+  margin-right: 10px;
+  padding-left: 20px;
+}
+.lm {
+  background: url(../images/newsbg01.png) no-repeat left center;
+}
+.auto span a {
+  color: #096;
+}
+.dtime {
+  background: url(../images/newsbg02.png) no-repeat left center;
+}
+.viewnum {
+  background: url(../images/newsbg04.png) no-repeat left center;
+}
+.readmore{
+  float: right;
+}
+.aboutme{
+  background: #fff
+  url("../images/toubg.jpg")
+  no-repeat top center;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-top-right-radius: 16px;
+}
+.tou{
+  margin: 90px auto 20px;
+  width: 100px;
+}
+.tou img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.abname {
+  color: #3f3f3f;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.abposition{
+  color: #3f3f3f;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.abschool{
+  color: #3f3f3f;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.absummary{
+  padding: 30px 40px;
+  color: #9a9a9a;
+}
+/*搜索框start*/
+.search {
+  padding:20px 0;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-top-right-radius: 16px;
+}
+.search form {
+  position:relative;
+  width:300px;
+  margin:0 auto;
+}
+input,button {
+  border:none;
+  outline:none;
+}
+.bar input {
+  border:2px solid #c5464a;
+  border-radius:5px;
+  background:transparent;
+  top:0;
+  right:0;
+  width:280px;
+  height:42px;
+  padding-left:13px;
+}
+.bar button {
+  height:42px;
+  cursor:pointer;
+  position:absolute;
+  background:#c5464a;
+  border-radius:0 5px 5px 0;
+  width:60px;
+  top:2px;
+  right:4px;
+}
+.bar button:before {
+  content:"搜索";
+  font-size:13px;
+  color:#F9F0DA;
+}
+/*搜索框end*/
+.cloud {
+  width: 100%;
+  clear: both;
+  overflow: hidden;
+  background: #fff;
+  margin-bottom: 20px;
+  border-top-right-radius: 16px;
+}
+.cloudtitle {
+  padding: 0 10px;
+  line-height: 50px;
+  height: 50px;
+  font-size: 18px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #333;
+  position: relative;
+}
+.clouds{
+  padding: 20px;
+  overflow: hidden;
+}
+.clouds a{
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.l1{
+  width: 20%;
+  background-color: #FC9D9A;
+}
+.r1{
+  width: 78%;
+  background-color: #EDC951;
+}
+.l2{
+  width: 35%;
+  background-color: #FFC0CB;
+}
+.r2{
+  width: 63%;
+  background-color: #FFE7BA;
+}
+.l3{
+  width: 50%;
+  background-color: #C1FFC1;
+}
+.r3{
+  width: 48%;
+  background-color: #EE82EE;
+}
+.l4{
+  width: 65%;
+  background-color: #FFE1FF;
+}
+.r4{
+  width: 33%;
+  background-color: #C6E2FF;
+}
+.ranking{
+  background: #FFF;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.ranking ul{
+  padding: 10px;
+}
+.ranking li{
+  border-bottom: solid 1px #EAEAEA;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  padding: 0 0 10px 0;
+  overflow: hidden;
+}
+.ranking img{
+  width: 100px;
+}
+.rankings span{
+  margin-right: 10px;
+  padding-left: 20px;
+}
+.rankings{
+  display: inline-block;
+  width: 200px;
+  padding: 5px;
+  position: relative;
+}
+.rkTitle{
+  color: #555;
+  font-weight: bold;
+  font-family: 微软雅黑;
+  display: block;
+}
+.rknum{
+  position: absolute;
+  top:70px;
+  left: 130px;
+  font-size: 10px;
+  background: url(../images/newsbg04.png) no-repeat left center;
+}
+/*以上是主页*/
+
+/*以下是blog页面*/
+.allBlog{
+  float: left;
+  width: 72%;
+  overflow: hidden;
+}
+.allBlog ul li {
+  display: block;
+  background: #FFF;
+  margin: 0 0 20px 0;
+  border: 1px #d9d9d9 solid;
+}
+.allBlog ul li i {
+  margin: 10px;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+.allBlog ul {
+  overflow: hidden;
+  width: 268px;
+  float: left;
+  margin-right: 16px;
+}
+.picinfo h3 {
+  border-bottom: #ccc 1px solid;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.picinfospan{
+  padding: 20px 20px 0 20px;
+  display: block;
+  color: #666;
+}
+.allBlog ul li img {
+  width: 100%;
+}
+.picinfo{
+  padding-bottom: 20px;
+}
+.smnav{
+  background: #FFF;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.navall{
+  border: #333 1px solid;
+  position: relative;
+  margin: 20px;
+  background: url(../images/navbg.png) no-repeat bottom right;
+  background-size: 70% 70%;
+}
+.smnav li {
+  border-bottom: 1px dashed #CCCCCC;
+  margin: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+.smnav li a {
+  color: #333;
+}
+.smnav li ul li {
+  border: none;
+  margin: 0 0 0 30px;
+  padding: 5px 0;
+  font-weight: normal;
+}
+
+/*写博客start*/
+.edit{
+  width: 70%;
+  min-height: 800px;
+  max-height: 1000px;
+  float: right;
+  overflow: hidden;
+}
+.something {
+  float: left;
+  width: 28%;
+  overflow: hidden;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+}
+.stul{
+
+}
+.stul li{
+  padding: 10px 30px;
+}
+.artitle{
+  border-radius: 5px;
+  width: 260px;
+  height: 30px;
+  padding-left: 13px;
+  background: #FAFAFA;
+  border: 1px solid #DDDDDD;
+}
+#arlei,#bklei{
+  background: #FAFAFA;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  width: 277px;
+  height: 34px;
+}
+.stul option{
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.stul p{
+  font-size: 14px;
+  color: #4f4f4f;
+}
+.stin{
+  outline: none;
+  padding: 10px 16px;
+  border: 1px solid #c5464a;
+  color: #c5464a;
+  border-radius: 4px;
+  margin-right: 12px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.stfh{
+  outline: none;
+  padding: 10px 16px;
+  border: 1px solid #6c757d;
+  color: #6c757d;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.stin:hover{
+  color: #FFFFFF;
+  background-color: #c5464a;
+}
+.stfh:hover{
+  color: #FFFFFF;
+  background-color: #6c757d;
+}
+/*写博客结束*/
+
+/*个人博客开始*/
+.oneblog{
+  float: left;
+  width: 66%;
+  overflow: hidden;
+  padding: 24px;
+  background-color: #FFFFFF;
+}
+.bltitle{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.bltitle span{
+  float: left;
+  border-radius: 15px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #ca0c16;
+  border: 1px solid #f4ced0;
+}
+.bltitle h1{
+  font-size:24px;
+}
+.arinfo{
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.artime{
+  color:#858585;
+}
+.arnum{
+  color:#858585;
+  float: right;
+}
+
+/*个人博客结束*/

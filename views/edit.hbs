@@ -1,0 +1,58 @@
+
+
+<div class="article">
+    <div class="edit">
+    <textarea name="editor1" id="editor1" rows="10" cols="80" style="resize:none">
+        This is my textarea to be replaced with CKEditor.
+    </textarea>
+        <script type="text/javascript" src="/javascripts/ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace( 'editor1' ,{
+                height: 800,
+                language:'ch-zn'
+            });
+
+            function OnSave(){
+                if(CKEDITOR.instances.editor1.getData()==""){
+                    alert("内容不能为空！");
+                    return false;
+                }else {
+                    alert (CKEDITOR.instances.editor1.getData());
+                }
+            }
+        </script>
+    </div>
+
+    <div class="something">
+        <h2 class="cloudtitle">基本信息</h2>
+        <ul class="stul">
+            <li><p>标题:</p></li>
+            <li><input type="text" placeholder="请输入标题" class="artitle"></li>
+            <li><p>文章类型:</p></li>
+            <li>
+                <select name="arlei" id="arlei" required>
+                    <option value="1">原创</option>
+                    <option value="2">转载</option>
+                    <option value="3">翻译</option>
+                </select>
+            </li>
+            <li><p>博客分类:</p></li>
+            <li>
+                <select name="bglei" id="bklei" required>
+                    <option value="1">HTML</option>
+                    <option value="2">CSS</option>
+                    <option value="3">JavaScript</option>
+                    <option value="4">JQuery</option>
+                    <option value="5">React</option>
+                    <option value="6">Vue</option>
+                    <option value="7">BootStrap</option>
+                </select>
+            </li>
+            <li>
+                <input type="button" value="发布博客" id="fb" class="stin">
+                <input type="button" value="保存草稿" id="bc" class="stin">
+                <input type="button" value="返回" id="fh" class="stfh">
+            </li>
+        </ul>
+    </div>
+</div>
